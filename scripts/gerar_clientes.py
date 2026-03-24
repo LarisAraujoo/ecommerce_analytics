@@ -5,7 +5,7 @@ fake = Faker("pt-BR")
 
 clientes = []
 
-for i in range(10):
+for i in range(100):
  cliente = {
     "cliente_id": i,
     "nome": fake.name(),

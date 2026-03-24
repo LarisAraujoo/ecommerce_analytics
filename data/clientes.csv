@@ -1,11 +1,101 @@
 cliente_id,nome,cidade,estado
-0,Aurora Moreira,da Rosa do Oeste,Rondônia
-1,João Pedro Novaes,Garcia,Mato Grosso
-2,Carolina Sales,Novais de Sampaio,Amapá
-3,Bernardo Marques,Pastor Grande,Amapá
-4,Luiza Cunha,da Costa de Vieira,Mato Grosso
-5,Cauê Fonseca,da Mota,Paraná
-6,Dr. Oliver Farias,Barbosa,Ceará
-7,Emanuelly Ferreira,Mendonça Grande,Minas Gerais
-8,André Moreira,da Paz,Amapá
-9,Srta. Mirella Sales,Azevedo,Amazonas
+0,Dr. Ravy Brito,Vieira,Bahia
+1,Kamilly Montenegro,Cardoso,Mato Grosso do Sul
+2,João Gabriel da Rosa,Jesus da Mata,Rondônia
+3,Laís da Cruz,Azevedo,Rio de Janeiro
+4,Dra. Julia da Costa,Barbosa,Goiás
+5,Marina Rezende,Sá de da Cunha,Sergipe
+6,Laís Rodrigues,Farias,Roraima
+7,Valentim Fogaça,Lopes de Melo,Maranhão
+8,Luiza da Mata,da Rosa da Praia,Amazonas
+9,Isabel Vieira,Vasconcelos,Tocantins
+10,Luísa Barbosa,Lopes de Araújo,Amazonas
+11,Thales da Cunha,Barbosa de Minas,Rio de Janeiro
+12,Ana Liz Silveira,Gonçalves das Flores,Rio de Janeiro
+13,Thales Mendes,Silva,Mato Grosso do Sul
+14,Luigi Pires,Sá,Mato Grosso
+15,Marcela Jesus,Vasconcelos,Amazonas
+16,Dr. Gustavo Henrique Albuquerque,Aparecida,Mato Grosso do Sul
+17,Ravi Lucca Sousa,Pastor Verde,Mato Grosso do Sul
+18,Ester Silveira,Campos,Distrito Federal
+19,Dante Cardoso,Ribeiro,Roraima
+20,Srta. Hadassa Lopes,Silva,Rio Grande do Sul
+21,Raul Cardoso,Borges,Alagoas
+22,Vitor Hugo Monteiro,Cunha da Mata,Minas Gerais
+23,Theodoro Casa Grande,Guerra de Marques,Sergipe
+24,Leandro Silva,Barros,Mato Grosso do Sul
+25,Maria Alice Rios,Borges,Distrito Federal
+26,Mariana Leão,da Cunha dos Dourados,Paraná
+27,Maria Julia da Costa,Alves,Goiás
+28,Ana Liz Campos,da Cunha de Abreu,Acre
+29,Luiz Fernando Farias,da Luz das Pedras,Bahia
+30,Ana Lívia Pacheco,Castro do Amparo,Rondônia
+31,Emanuella Rezende,Ribeiro,Rio Grande do Sul
+32,Sra. Ana Lívia Silveira,Rodrigues de Minas,Minas Gerais
+33,Maria Clara Fogaça,Moraes,Goiás
+34,Yasmin Silveira,Garcia,Roraima
+35,Enzo Campos,Marques,Paraíba
+36,Maya Porto,da Conceição,Rio Grande do Sul
+37,Aylla Costela,Albuquerque das Flores,Goiás
+38,Eloá Freitas,Fogaça,Rio Grande do Norte
+39,Ágatha Teixeira,Oliveira das Pedras,Rio de Janeiro
+40,Pedro Henrique Lima,Moraes Verde,Pernambuco
+41,Luiz Gustavo Sampaio,Moreira,Mato Grosso do Sul
+42,Arthur Pires,Novais Grande,Mato Grosso do Sul
+43,Mateus Cardoso,Silva,Minas Gerais
+44,Carlos Eduardo Pires,Correia,Bahia
+45,Vinícius Barros,Gomes,Pernambuco
+46,Nina Aragão,das Neves das Pedras,Amapá
+47,Maria Laura Moura,Farias do Galho,Pernambuco
+48,Emanuelly Camargo,Pacheco,Paraná
+49,Manuela da Rocha,Correia do Campo,Minas Gerais
+50,Sra. Olívia da Cunha,Cardoso de Lima,Rio Grande do Norte
+51,Sr. Lucas Gabriel Siqueira,Câmara do Galho,Rio Grande do Sul
+52,Bento da Rosa,Silva do Campo,São Paulo
+53,Yan Viana,Sampaio,Pernambuco
+54,Daniel Peixoto,Costela,Bahia
+55,Sra. Manuela Rezende,Marques,Mato Grosso do Sul
+56,Melissa Brito,Silveira de Pacheco,Maranhão
+57,Maria Isis Farias,Martins,Distrito Federal
+58,Sarah Macedo,Rodrigues do Galho,Sergipe
+59,Theo Moreira,Costela,Ceará
+60,Paulo Silveira,Souza Verde,São Paulo
+61,Ágatha Caldeira,Porto,Mato Grosso do Sul
+62,Nicole Novaes,Casa Grande,Rondônia
+63,Vitória Pastor,Albuquerque de Moraes,Rio de Janeiro
+64,Rafaela Lima,Campos,Amazonas
+65,Pedro Pinto,Camargo,Acre
+66,Diego Jesus,Sales de Rodrigues,Sergipe
+67,Valentim Aparecida,Nunes de Cirino,Amapá
+68,Dr. Lucca Casa Grande,Cavalcante,Piauí
+69,José Melo,Camargo da Prata,Amazonas
+70,Dr. Thales da Conceição,Ramos Alegre,Amazonas
+71,Isabella Pereira,Cirino,Alagoas
+72,Srta. Mariane Nunes,da Rosa,Pará
+73,Vitor Hugo Melo,Rodrigues da Praia,Paraíba
+74,Sr. Vitor Gabriel da Costa,Moura das Pedras,Rio Grande do Norte
+75,Melissa Costa,da Mata,Sergipe
+76,Enrico Peixoto,Rodrigues dos Dourados,Paraíba
+77,Luiz Fernando Aragão,da Rocha da Praia,Tocantins
+78,Rafael Correia,da Paz do Amparo,Piauí
+79,Davi Lucas da Rocha,da Conceição de Cunha,Acre
+80,Vinícius Novaes,Sales do Campo,Paraná
+81,Agatha Melo,da Costa,Santa Catarina
+82,Brayan Cirino,Casa Grande do Campo,Ceará
+83,Dra. Alexia Barros,da Cruz,Rondônia
+84,Ravi Lucca da Mota,Brito,Roraima
+85,Dr. Enzo Cirino,Lopes de Rodrigues,Espírito Santo
+86,Yan Dias,Cassiano da Serra,Bahia
+87,Dr. Henry da Cruz,Ribeiro,Rio de Janeiro
+88,Mariana Sá,Nunes,Espírito Santo
+89,Bárbara Borges,Vasconcelos,Rondônia
+90,Carlos Eduardo Aragão,Sampaio,Pará
+91,Dra. Maria Cecília Campos,Cassiano de Araújo,Rio de Janeiro
+92,Ana Laura Ramos,Lima das Flores,Roraima
+93,José Pedro Ramos,Vargas,Roraima
+94,Dr. Ian Fernandes,Pastor Paulista,Alagoas
+95,Bianca Correia,Vargas Paulista,Paraíba
+96,Lívia Nogueira,Marques de Sales,Acre
+97,Sra. Emanuelly Garcia,Camargo dos Dourados,Rondônia
+98,Cauê Teixeira,Pires do Campo,Ceará
+99,Vitória Sampaio,Casa Grande de Nunes,Pará
