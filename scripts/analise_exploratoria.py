@@ -14,3 +14,12 @@ print(pedidos.shape)
 print(produtos.shape)
 
 print(clientes.info())
+
+pedidos_itens = pd.merge(pedidos, itens, on="pedido_id")
+print(pedidos_itens.head())
+
+df_final = pd.merge(pedidos_itens, produtos, on="produto_id")
+
+df_final["faturamento"] = df_final["quantidade"] * df_final["preco"]
+
+print(df_final.head())
