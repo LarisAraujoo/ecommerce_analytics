@@ -22,4 +22,5 @@ df_final = pd.merge(pedidos_itens, produtos, on="produto_id")
 
 df_final["faturamento"] = df_final["quantidade"] * df_final["preco"]
 
-print(df_final.head())
+faturamento_total = df_final["faturamento"].sum()
+print("Faturamento total da empresa:", faturamento_total)
