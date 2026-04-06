@@ -1,45 +1,67 @@
-# Projeto de Análise de Dados – E-commerce
+#  Análise de Dados de E-commerce
 
-## Visão Geral
+Este projeto tem como objetivo analisar dados de um e-commerce, transformando dados brutos em informações estratégicas para tomada de decisão.
 
-Este projeto realiza uma análise exploratória de dados de um e-commerce com o objetivo de identificar padrões de comportamento de clientes, tendências de vendas e oportunidades de melhoria para o negócio. O foco é aplicar técnicas de análise de dados em um cenário próximo ao real, com organização de código e reprodutibilidade.
+---
 
-## Tecnologias Utilizadas
+##  Objetivo
 
-* Python
-* Pandas
-* Matplotlib e Seaborn
+Consolidar dados de múltiplas fontes e gerar métricas relevantes de negócio, como faturamento, ticket médio e desempenho de produtos.
 
-## Estrutura do Projeto
+---
 
-```
+##  Estrutura do Projeto
+
 ecommerce_analytics/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── scripts/
-│   └── analise_exploratoria.py
-└── outputs/
-```
 
-## Etapas da Análise
+* data/
+* scripts/
+* run_pipeline.py
+* README.md
 
-* Carregamento e inspeção inicial dos dados
-* Limpeza e tratamento (valores nulos, tipos de dados e duplicidades)
-* Análise exploratória para identificação de padrões de compra e distribuição de clientes
-* Geração de gráficos para apoiar a interpretação dos resultados
+---
 
-## Como Executar
+##  Pipeline de Dados
 
-```bash
-git clone https://github.com/seu-usuario/ecommerce_analytics.git
-cd ecommerce_analytics
-pip install -r requirements.txt
-python scripts/analise_exploratoria.py
-```
+O projeto foi estruturado em duas etapas:
 
-## Objetivo
+### 1. Transformação de Dados
 
-Este projeto foi desenvolvido para praticar análise de dados aplicada a negócios e compor portfólio profissional na área de dados.
+* Leitura dos arquivos CSV
+* Integração das tabelas
+* Criação do dataset final
+* Cálculo do faturamento
 
+### 2. Análise e Métricas
+
+* Faturamento total
+* Ticket médio
+* Total de pedidos
+* Clientes únicos
+* Produtos mais vendidos
+
+---
+
+##  Como Executar
+
+1. Instale as bibliotecas:
+   pip install pandas matplotlib
+
+2. Rode o projeto:
+   python run_pipeline.py
+
+---
+
+##  Resultados
+
+O projeto gera:
+
+* Dataset final
+* Métricas no terminal
+* Gráfico dos produtos mais vendidos
+
+---
+
+##  Sobre o Projeto
+
+Projeto de análise de dados simulando um cenário real de e-commerce, com foco em geração de insights a partir de dados.

@@ -9,9 +9,9 @@ def gerar_dataset_final():
     pedidos_itens = pd.merge(pedidos, itens, on="pedido_id")
     df_final = pd.merge(pedidos_itens, produtos, on="produto_id")
 
-    df_final["fatturamento"] = df_final["quantidade"] * df_final["preco"]
+    df_final["faturamento"] = df_final["quantidade"] * df_final["preco"]
 
-    df_final.to_csv("data/dataset_final.csv", indx=False)
+    df_final.to_csv("data/dataset_final.csv", index=False)
     print("Dataset final gerado.")
 
     return df_final
